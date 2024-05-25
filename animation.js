@@ -1,0 +1,62 @@
+gsap.from(".navheading",{
+    // y:100,
+    x:100,
+    opacity:0,
+    duration:1,
+    delay:1,
+    stagger:-1
+    })
+
+gsap.from(".subheading",{
+    x:100,
+    opacity:0,
+    duration:1,
+    delay:2,
+    stagger:-1
+})
+
+gsap.from("a",{
+y:100,
+x:100,
+opacity:0,
+duration:0.5,
+delay:0.3,
+stagger:-1
+})
+gsap.from(".navmode",{
+    y:-30,
+    opacity:0,
+    duration:1,
+    delay:1,
+    stagger:-1
+})
+gsap.from(".login",{
+    y:100,
+    x:100, 
+    opacity:0,
+    duration:1,
+    delay:1,
+    stagger:-1
+    })
+    // for nav animation.
+    gsap.from(".nav",{
+        y:100,
+        opacity:0,
+        duration:1.6,
+        delay:1,
+        stagger:-1
+    })
+    gsap.from(".container",{
+        y:1000,
+        opacity:0,
+        duration:1,
+        delay:1,
+        stagger:-1
+    })
+    gsap.from(".input-container",{
+        y:-1200,
+        opacity:0,
+        duration:1,
+        delay:2,
+        stagger:-1
+    })
