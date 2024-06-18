@@ -1,8 +1,10 @@
 # AI Chatbot 🤖💬
+![alt text](https://s3.amazonaws.com/media-p.slid.es/uploads/borismatosmorillo/images/126981/daftpunktocat-thomas.gif)
 
 # Abstract 🌟
 Welcome to the AI Chatbot repository! This project is a sophisticated chatbot application designed to provide engaging and intelligent conversations
 using OpenAI's GPT-3.5 Turbo model. Whether you need assistance, have questions, or just want a fun chat, our AI chatbot is here to help! 🚀
+![alt text](https://raw.githubusercontent.com/Giphy/GiphyAPI/master/api_giphy_header.gif)
 
 # Key Features ✨
 1.Natural Language Understanding: The chatbot can comprehend and respond to a wide array of queries, making interactions feel natural and human-like. 🧠
@@ -29,6 +31,9 @@ Animations: GSAP for smooth and engaging animations throughout the interface. �
 # Conclusion 🎯
 Our AI Chatbot offers a blend of advanced AI capabilities and user-friendly design, making it a versatile tool for various applications.
 Join us in exploring the potential of AI-driven conversations and enhance your interaction experience today! 🌈
+
+![alt text](https://th.bing.com/th/id/OIP.YF1okuX6fDVCBQ-Nt9K07wHaHa?pid=ImgDet&w=176&h=176&c=7&dpr=1.5)
+
 
 # reprosiotry structure
 /ai-chatbot
