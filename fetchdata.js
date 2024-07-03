@@ -105,3 +105,32 @@ Btn.addEventListener("click", async () => {
         });
     }
 });
+// here is the code for dark mode.
+// darkmode.js
+document.addEventListener("DOMContentLoaded", () => {
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    const body = document.body;
+    const navbarLinks = document.querySelectorAll(".navbar a, .login a");
+
+    // Load saved theme from localStorage
+    const savedTheme = localStorage.getItem("dark-mode");
+    if (savedTheme === "enabled") {
+        enableDarkMode();
+    }
+
+    darkModeToggle.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
+        navbarLinks.forEach(link => link.classList.toggle("dark-mode"));
+        if (body.classList.contains("dark-mode")) {
+            localStorage.setItem("dark-mode", "enabled");
+        } else {
+            localStorage.setItem("dark-mode", "disabled");
+        }
+    });
+
+    function enableDarkMode() {
+        body.classList.add("dark-mode");
+        navbarLinks.forEach(link => link.classList.add("dark-mode"));
+    }
+});
+
