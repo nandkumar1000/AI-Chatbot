@@ -1,0 +1,50 @@
+var tl= gsap.timeline();
+tl.from(".message",{
+  x:1000,
+  duration:0.3,
+  delay:0.4,
+  opacity:0,
+  satgger:0.2
+})
+tl.from(".message h1",{
+   y:-400,
+   duration:0.4,
+   opacity:0,
+   satgger:0.3
+})
+tl.from(".content",{
+  y:-500,
+  duration:0.4,
+  opacity:0,
+  satgger:0.3
+})
+tl.from(".btn",{
+  y:500,
+  duration:0.4,
+  opacity:0,
+  satgger:0.3
+})
+tl.from(".info",{
+  x:-400,
+  duration:0.4,
+  opacity:0,
+  satgger:0.3
+})
+tl.from(".info h2",{
+  y:-500,
+  duration:0.4,
+  opacity:0,
+  satgger:0.3
+})
+tl.from(".info p",{
+  y:500,
+  duration:0.4,
+  opacity:0,
+  satgger:0.3
+})
+tl.from(".icons",{
+   y:-900,
+   duration:0.4,
+   opacity:0,
+   satgger:0.3
+})
